@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    .outer-container {
+        background-color: #f0f0f0;
+        padding: 20px;
+        width: 400px;
+    }
+    .inner-container {
+        background-color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    .container {
+        text-align: center;
+        border-radius: 10%;
+        overflow: hidden;
+    }
+    .container img {
+        max-width: 100%;
+        border-radius: 10%;
+        border: 2px solid #cacaca; /* Borda branca com 4px de espessura */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+    .text-overlay {
+        text-align: center;
+        color: #353535;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Tahoma, sans-serif;
+    }
+    .text-overlay:nth-child(1) {
+        top: 30%;
+    }
+    .text-overlay:nth-child(2) {
+        top: 70%;
+    }
+    .text-overlay2 {
+        text-align: center;
+        color: #686868;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(95, 95, 95, 0.438); /* Sombra suave do texto */
+        font-family: Tahoma, sans-serif;
+    }
+</style>
+</head>
+<body>
+<div class="outer-container">
+  <h4 class="text-overlay2">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></h4>
+    <h5 class="text-overlay2">Coded by <a href="#">Joaotds</a>.</h5>
+    <div class="inner-container">
+        <div class="container">
+            <img src="imageqrcode.png">
+    </div>
+        <h2 class="text-overlay">Improve your front-end skills by building projects</h2>
+    <h3 class="text-overlay2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h3>
+    
+    </div>
+</div>
+</body>
+</html>
